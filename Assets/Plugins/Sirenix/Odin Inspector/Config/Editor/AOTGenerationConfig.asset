@@ -1,0 +1,214 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1726182683, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: AOTGenerationConfig
+  m_EditorClassIdentifier: 
+  automateBeforeBuilds: 1
+  deleteDllAfterBuilds: 1
+  AutomateForAllAOTPlatforms: 1
+  automateForPlatforms: 090000001400000002000000050000000d000000
+  lastScan: 638643584034694340
+  supportSerializedTypes:
+  - TypeName: DexiDev.Game.Assets.AssetConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Assets.Installers.AssetsManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Boolean, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Gameplay.Weapons.Stats.DamagePowerField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Gameplay.Weapons.Stats.DamageTickRateField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Single, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Gameplay.GameplayManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.HashSet`1[[DexiDev.Game.Levels.Nodes.LevelNode,
+      Assembly-CSharp]], System.Core
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Data.IDataField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: VContainer.Unity.IInstaller, VContainer
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.ILevelNodeField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.ILevelNodeField[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.ILevelNodeField[][], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.ILevelNodeService, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.ILevelNodeService[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Gameplay.Modifiers.IModifierStatField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Input.Installers.InputManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Int32, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Inventory.Installers.InventoryManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Rewards.IRewardField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Rewards.IRewardService, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Rewards.IRewardService[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Loadings.IScene, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Items.Fields.ItemField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Inventory.Rewards.ItemRewardService, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Items.ItemsConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Items.Installers.ItemsManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.LevelConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.Installers.LevelManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.Nodes.LevelNode, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.Nodes.LevelNodeCustom, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.Datas.LevelNodeCustomData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.Fields.LevelNodeCustomField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.Services.LevelNodeCustomService, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.Fields.LevelNodeField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.Services.LevelNodeRandomService, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.Rewards.LevelNodeRewardService, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.Nodes.LevelNodeScoring, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Levels.Services.LevelNodeService, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[System.Collections.Generic.HashSet`1[[DexiDev.Game.Levels.Nodes.LevelNode,
+      Assembly-CSharp]], System.Core]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[DexiDev.Game.Data.IDataField, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[VContainer.Unity.IInstaller, VContainer]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[DexiDev.Game.Gameplay.Modifiers.ModiferStatField,
+      Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Loadings.LoadingConfig, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Loadings.LoadingData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Loadings.Installers.LoadingManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Loadings.LoadingSettings, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Loadings.LoadingSettings[], Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.SceneManagement.LoadSceneMode, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Gameplay.Modifiers.ModiferStatField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Gameplay.Modifiers.ModifierStatData, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Gameplay.Modifiers.ModifierStatData+ModifierType, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Gameplay.Rewards.ModifierStatRewardService, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Object, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Rewards.Services.RewardListService, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Rewards.Installers.RewardManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Rewards.Services.RewardRandomFieldService, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Loadings.Scenes.SceneField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Gameplay.Weapons.Stats.ShootCountField, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Sprite, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.String, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.Loadings.UI.UILoadingScreen, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DexiDev.Game.UI.Installers.UIManagerInstaller, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1

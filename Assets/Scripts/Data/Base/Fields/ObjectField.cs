@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace DexiDev.Game.Data.Fields
+{
+    public abstract class ObjectField<TObject> : DataField<TObject> where TObject : Object
+    {
+        protected override bool Equals(TObject oldValue, TObject newValue)
+        {
+            return oldValue == newValue;
+        }
+    }
+}
